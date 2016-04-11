@@ -1,9 +1,15 @@
+3 Matthood737 Answers to the Questions
 # mp2 (webspy Program)
+
+
 After writing webspy, you should answer the following questions in a README
 le submitted with your assignment:
 1. Does using HTTPS obscure the URL being requested? If so, why?
 2. Does using HTTPS prevent hackers from knowing which web site a user
 is browsing?
+
+
+
 Answer:
 1. The HTTPS protocol is equivalent to using HTTP over an SSL or TLS connection (over TCP).
 Thus, first a TCP connection (on port 443) is opened to the server. This is usually enough to reveal the server's host name (i.e. www.mysite.com in your case) to the attacker. The IP address is directly observed, and:
